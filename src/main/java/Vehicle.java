@@ -15,23 +15,20 @@ public class Vehicle {
         return color;
     }
 
-    public void setColor(color) {
-    this.color = color;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public void getEngineSize() {
-        return ;
+    public float getEngineSize() {
+        return engineSize;
     }
 
-    public void setEngineSize() {
-
-
+    public void setEngineSize(float engineSize) {
+        this.engineSize = engineSize;
     }
 
     public String getFuelType() {
-        String fuelType;
-
-        return "";
+        return ;
     }
 
     public void setFuelType() {

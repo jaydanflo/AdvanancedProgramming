@@ -1,28 +1,25 @@
 public class Vehicle {
 
+    int numberOfWheels;
+    String color;
+    float engineSize;
+
     public int getNumberOfWheels() {
-        int numberOfWheels;
-
-        return 0;
+        return numberOfWheels;
     }
-    public void setNumberofWheels() {
-
-
+    public void setNumberofWheels(numberOfWheels) {
+        this.numberOfWheels = numberOfWheels;
     }
 
     public String getColor() {
-        String color;
-
-        return "";
+        return color;
     }
 
-    public void setColor(){
-
+    public void setColor(color) {
+    this.color = color;
     }
 
     public void getEngineSize() {
-        float engineSize;
-
         return ;
     }
 

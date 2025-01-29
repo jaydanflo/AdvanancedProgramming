@@ -4,8 +4,7 @@ public class Car extends Vehicle {
 
     public Car (int numberOfWheels, String color, float engineSize, String fuelType, String brand) {
         super(numberOfWheels, color, engineSize, fuelType)
-        this.brand = brand;
-        
+        this.brand = brand;     
     }
     
     public String getBrand() {
